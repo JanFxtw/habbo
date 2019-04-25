@@ -1,0 +1,84 @@
+:root {
+  --orange: #f4511e;
+  --lightgrey: #fbfbfb;
+  --grey: #f7f7f7;
+  --white: white;
+  --black: black;
+  --green: #45a049;
+  --darkblue: #2C5C82;
+  --mediumblue: #3E86AF;
+  --lightblue: #4795BE;
+  --day: url("http://jaaan.bplaced.net/habbo/assets/images/headbg.png");
+  --night: url("http://jaaan.bplaced.net/habbo/assets/images/headbgn.png");
+  --bg_dots: url("http://jaaan.bplaced.net/habbo/assets/images/background_dots.png");
+  --radius: 3px;
+  --font_big: 50px;
+  --font_medium: 28px;
+  --font_smallplus: 18px;
+  --font_small: 12px;
+  --font_mini: 8px;
+  --red: #D8000C;
+  --lightred: #FFBABA;
+}
+
+h2 {
+  color: var(--white);
+  font-size: var(--font_big);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  position: relative;
+  text-align: center;
+  background-image: var(--header_pic);
+  background-repeat: repeat-x;
+  min-width: 1010px;
+}
+
+html {
+  font-family: Verdana, Geneva, sans-serif;
+  background: var(--bg_dots);
+}
+
+footer, footer a {
+  font-size: var(--font_small);
+  text-decoration: none;
+  color: var(--orange);
+}
+
+input, select {
+  width: 75%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: var(--radius);
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 75%;
+  background-color: #4CAF50;
+  color: var(--white);
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: 1px;
+  border-color: var(--black);
+  border-radius: var(--radius);
+  cursor: pointer;
+}
+
+input {
+  font-size: var(--font_big);
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,277 @@
+.footer_box {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: var(--white);
+  -webkit-box-shadow: 0 0 5px 0px var(--black);
+  -moz-box-shadow: 0 0 5px 0px var(--black);
+  box-shadow: 0 0 5px 0px var(--black);
+}
+
+.searchbar {
+  margin: 0 auto;
+}
+
+.selection_bar {
+  display: block;
+  text-shadow: 0 1px 0 #ccc;
+  width: auto;
+  align-items: center;
+  /*height: 100px;*/
+  left: 5px;
+}
+
+.last_items li {
+  float: left;
+  margin: 10px;
+  margin-bottom: 20px;
+}
+
+.last_items li a {
+  display: block;
+  padding: 4px 8px;
+  text-decoration: none;
+}
+
+.selection_bar li {
+  float: left;
+  /*margin: 20px 75px 75px 0%;*/
+  margin: 25px;
+  margin-bottom: 40px;
+}
+
+.selection_bar li a {
+  color: var(--white);
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.header_pic {
+  padding: 30px;
+}
+
+.button {
+  background-color: var(--orange);
+  color: var(--white);
+  text-align: center;
+  font-size: var(--font_medium);
+  padding: 20px;
+  width: 100px;
+}
+
+.button2 {
+  background-color: var(--white);
+  color: var(--black);
+  border: 1px solid var(--black);
+  text-align: center;
+  font-size: var(--font_small);
+  width: auto;
+}
+
+.button, .button2 {
+  border-radius: var(--radius);
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.button:hover {
+  box-shadow: 0 8px 14px 0 rgba(0,0,0,0.24),0 10px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button2:hover {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.10),0 4px 6px 0 rgba(0,0,0,0.10);
+  background-color: var(--lightgrey);
+}
+
+.inp_sec {
+  width: 100%;
+  font-size: var(--font_smallplus);
+  padding: 10px;
+  margin-bottom: 25px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: var(--radius);
+  box-sizing: border-box;
+}
+
+.main_menu, .content_box, .content_box2, .login, .register, .last_visited, .content_box_bg {
+  display: block;
+  background-color: var(--white);
+  border-radius: var(--radius);
+  border: none;
+  margin: 100px;
+  -webkit-box-shadow: 0 0 5px 0px var(--black);
+  -moz-box-shadow: 0 0 5px 0px var(--black);
+  box-shadow: 0 0 5px 0px var(--black);
+}
+
+.content_box_bg {
+  background-image: url("http://jaaan.bplaced.net/habbo/assets/images/hotel_view.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+.content_box2 {
+  font-size: var(--font_mini);
+}
+
+.register, .last_visited {
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+  box-sizing: border-box;
+  font-size: var(--font_smallplus);
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 30px;
+  background-color: var(--white);
+}
+
+.register {
+  float: left;
+  width: 27%;
+}
+
+.last_visited {
+  float: right;
+  width: 70%;
+}
+
+.login {
+  float: none;
+  min-width: none;
+  font-size: var(--font_smallplus);
+  padding: 30px;
+  background-color: var(--white);
+  text-align: center;
+}
+
+.mini_link {
+  font-size: var(--font_small);
+  margin-top: 20px;
+}
+
+.main_menu {
+  background-color: var(--grey);
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.content_box, .content_box2, .content_box_bg {
+  padding: 15px;
+  margin: 30px;
+  margin-bottom: 0 auto;
+  text-align: left;
+  font-size: var(--font_smallplus);
+}
+
+.content_box_bg {
+  padding-bottom: 500px;
+}
+
+.button3, .text1, .text_error {
+  background-color: var(--orange);
+  color: var(--white);
+  padding: 10px;
+  font-size: var(--font_small);
+  border: 1px solid var(--black);
+  border-radius: var(--radius);
+  text-align: left;
+}
+
+.text_error {
+  background-color: var(--lightred);
+  color: var(--red);
+}
+
+.text1, .text_error {
+  text-align: center;
+  font-size: var(--font_smallplus);
+}
+
+.button3:hover {
+  background-color: var(--black);
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.select_menu {
+  position: relative;
+  font-size: var(--font_small);
+  text-align: left;
+  padding: 15px;
+}
+
+
+
+
+/* Popup container - can be anything you want */
+.popup1, .popup2, .popup3, .popup4, .popup5 {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+.popup1 .popuptext1, .popup2 .popuptext2, .popup3 .popuptext3, .popup4 .popuptext4, .popup5 .popuptext5 {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: var(--radius);
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 90%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup1 .popuptext1::after, .popup2 .popuptext2::after, .popup3 .popuptext3::after, .popup4 .popuptext4::after, .popup5 .popuptext5::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup1 .show, .popup2 .show, .popup3 .show, .popup4 .show, .popup5 .show  {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
+@media only screen and (max-width: 1100px) {
+  .popup4 {
+    display:none;
+  }
+}
+
+@media only screen and (max-width: 1300px){
+  .popup5 {
+      display:none;
+  }
+}
